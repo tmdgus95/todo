@@ -16,8 +16,8 @@ export default function TodoList() {
     return (
         <section>
             <ul>
-                {todos.map((todo, i) => (
-                    <li key={i}>{todo.text}</li>
+                {todos.map((item) => (
+                    <li key={item.id}>{item.text}</li>
                 ))}
             </ul>
         </section>
