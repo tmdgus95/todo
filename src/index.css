@@ -20,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    accent-color: var(--color-accent);
     background: rgb(81, 87, 111);
     background: linear-gradient(
         106deg,
@@ -40,8 +41,13 @@ body {
     -webkit-box-shadow: 5px 5px 21px 4px rgba(0, 0, 0, 0.45);
     box-shadow: 5px 5px 21px 4px rgba(0, 0, 0, 0.45);
 }
+
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 ul {
@@ -52,4 +58,20 @@ ul {
 button {
     outline: none;
     border: none;
+}
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--color-bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--color-scrollbar);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color-accent);
 }
