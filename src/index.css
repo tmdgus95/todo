@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.2rem;
     background: rgb(81, 87, 111);
     background: linear-gradient(
         106deg,
