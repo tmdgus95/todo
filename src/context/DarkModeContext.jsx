@@ -25,10 +25,10 @@ export function DarkModeProvider({ children }) {
 }
 function updateDarkMode(darkMode) {
     if (darkMode) {
-        document.documentElement.classList.add('.dark');
+        document.documentElement.classList.add('dark');
         localStorage.theme = 'dark';
     } else {
-        document.documentElement.classList.remove('.dark');
+        document.documentElement.classList.remove('dark');
         localStorage.theme = 'light';
     }
 }
