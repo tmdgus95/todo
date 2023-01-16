@@ -15,7 +15,6 @@ export function DarkModeProvider({ children }) {
                 window.matchMedia('(prefers-color-scheme: dark)').matches);
         setDarkMode(isDark);
         updateDarkMode(isDark);
-        console.log(isDark);
     }, []);
     return (
         <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
