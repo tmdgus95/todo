@@ -16,3 +16,6 @@
 ## 프로젝트를 통해 얻은것
  * 컴포넌트를 분리해서 한 컴포넌트에서 너무 많을 일을 하지 않도록 설계하는게 중요하다는걸 알게됨
 
+### 배포 사이트
+
+🚀 https://app.netlify.com/sites/taupe-begonia-74d622/overview
