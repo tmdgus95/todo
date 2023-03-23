@@ -18,4 +18,4 @@
 
 ### 배포 사이트
 
-🚀 https://app.netlify.com/sites/taupe-begonia-74d622/overview
+🚀 https://taupe-begonia-74d622.netlify.app/
